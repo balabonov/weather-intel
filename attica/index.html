@@ -1,0 +1,139 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Weather Intel · Attica, MI</title><link rel="stylesheet" href="specops.css"><style>
+.nav{position:sticky;top:0;z-index:10;background:#0f1b2d;display:flex;gap:6px;padding:10px 16px;align-items:center;flex-wrap:wrap;font-family:'Inter'}
+.nav b{color:#f97316;font-family:'Inter Tight';font-weight:800;margin-right:10px;letter-spacing:.1em;font-size:12px}
+.nav button,.nav a{font:600 11px 'Inter';letter-spacing:.08em;padding:6px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);color:#e2e8f0;cursor:pointer;text-decoration:none}
+.nav button.on,.nav a.on{background:#f97316;border-color:#f97316;color:#fff}.nav .sp{flex:1}
+.wrap{display:flex;justify-content:center;padding:18px 0}.wrap .pg{box-shadow:0 8px 30px rgba(15,27,45,.15);border-radius:6px}
+pre.afd{font-family:'JetBrains Mono';font-size:6.6px;line-height:1.2;white-space:pre-wrap;color:#0f1b2d}
+.print{display:none!important}
+@media print{.nav{display:none}.wrap{display:block;padding:0}.wrap .pg{display:block!important;box-shadow:none;border-radius:0}.screen{display:none!important}.print{display:inline!important}img.print{display:block!important}}
+</style></head><body><div class="nav"><b>WX INTEL</b><a href="../davison/index.html" class="">Davison</a><a href="../rochester-hills/index.html" class="">Rochester Hills</a><a href="../attica/index.html" class="on">Attica</a><a href="../clio/index.html" class="">Clio</a><a href="../mitten-mafia/index.html" class="">Mitten Mafia Fields</a><span class="sp"></span><button data-t="brief">Brief</button><button data-t="ops">Sched Ops</button><button data-t="current">Current</button><button data-t="hourly">Hourly</button><button data-t="week">7-Day</button><button data-t="radar">Radar/SPC</button><button data-t="afd">Discussion</button><a href="Weather_Intel_Attica_20261012_1730.pdf" download>PDF ↓</a></div><div class="wrap"><div><div class="pg" id="p-brief" data-tab="brief"><div class="top"><svg class="rings" width="200" height="200" viewBox="0 0 220 220"><g fill="none" stroke="#fff"><circle cx="110" cy="110" r="100"/><circle cx="110" cy="110" r="70"/><circle cx="110" cy="110" r="40"/><path d="M110 0v220M0 110h220" stroke-dasharray="2 6"/></g></svg><div class="eb"><span>WEATHER INTEL · SPEC OPS</span><span class="live"><i></i>FETCHED OCT 12, 2026 · 5:30 PM EDT</span></div><h1>Weather Intel <span>Attica</span></h1><div class="who"><b>Jeremy Balabon</b> · field ops brief · 43.0315N, -83.1707W</div><div class="pills"><span>Attica, MI · Lapeer County</span><span>NWS DTX grid 59,66</span><span>Zone MIZ062</span><span>Obs KD95</span><span>Radar KDTX</span></div></div><div class="main">
+<div class="kpis"><div class="k"><div class="h">NOW · KD95 <span class="chip ok">OBSERVED</span></div><div class="v">84<small>°F</small></div><div class="d"><b>Clear</b> · wind SW 14 mph · dewpt 59°F · obs 4:55 PM ET</div></div>
+<div class="k"><div class="h">ALERTS <span class="chip ok">CLEAR</span></div><div class="v">0</div><div class="d">Active NWS alerts for zone <b>MIZ062</b></div></div>
+<div class="k"><div class="h">48H PEAK RAIN <span class="chip tv">WATCH</span></div><div class="v">48<small>%</small></div><div class="d"><b>Tue 2 AM</b> · Chance T-storms</div></div></div>
+<div class="panel"><div class="ph"><h2>ACTIVE ALERTS <span>· NWS</span></h2><span class="chip ok">CLEAR</span></div><div class="r"><div class="t" style="color:#047857">NONE</div><div class="w"><b>No active NWS watches, warnings or advisories</b><span>Checked api.weather.gov/alerts/active for point 43.0315,-83.1707 (zone MIZ062) at 5:30 PM ET.</span></div><span class="chip ok">CLEAR</span></div></div>
+<div class="panel"><div class="ph"><h2>BOTTOM LINE <span>· OPERATIONAL IMPACTS, NEXT 48H+</span></h2></div><div class="r"><div class="t"><span class="bar" style=background:#f59e0b></span>STORMS</div><div class="w"><b>Isolated thunder possible Tue 2 AM–5 AM</b><span>NWS: elevated instability only, no severe concerns per DTX AFD. Plan outdoor/roof work and lifts around it; lightning = stand down.</span></div><span class="chip tv">WATCH</span></div><div class="r"><div class="t"><span class="bar" style=background:#f59e0b></span>RAIN</div><div class="w"><b>Rain windows ≥30%: Tue 1 AM, Wed 3 AM</b><span>Peak 48% at Tue 2 AM. Amounts &lt; 0.1 in. Protect open panels/terminations and stored gear.</span></div><span class="chip tv">WATCH</span></div><div class="r"><div class="t"><span class="bar" style=background:#f59e0b></span>WIND</div><div class="w"><b>Gusts to 30 mph (Tuesday)</b><span>Sustained up to 15 mph W. Secure ladders, sheet goods and roof-top work; high-profile vehicles fine below ~40 mph.</span></div><span class="chip tv">WATCH</span></div><div class="r"><div class="t"><span class="bar" style=background:#f59e0b></span>HEAT</div><div class="w"><b>Unseasonably warm: 81°F peak (Tue 3 PM)</b><span>Dewpoints ~59°F. Hydrate in attics/mech rooms and lifts.</span></div><span class="chip tv">NOTE</span></div><div class="r"><div class="t"><span class="bar" style=background:#4f46e5></span>TEMP DROP</div><div class="w"><b>48h low 56°F · 7-day low 33°F (Friday Night)</b><span>Frost/freeze-level lows in the 7-day. Watch freeze-sensitive equipment, outdoor startups, coil freeze stats.</span></div><span class="chip cd">PLAN</span></div><div class="r"><div class="t"><span class="bar" style=background:#047857></span>TRAVEL</div><div class="w"><b>No hazardous weather expected (HWO)</b><span>Roads: wet pavement only during rain windows above.</span></div><span class="chip ok">CLEAR</span></div></div>
+<div class="two"><div class="panel"><div class="ph"><h2>HAZARDOUS WX OUTLOOK</h2><span class="chip ok">NONE</span></div><div class="nt"><b>Today/Tonight:</b> No hazardous weather is expected at this time.<br><b>Days 2–7:</b> No hazardous weather is expected at this time.<br><span class="mono">HWO DTX · 349 AM EDT Mon Oct 12 2026</span></div></div>
+<div class="panel"><div class="ph"><h2>48H RANGE</h2></div><div class="nt"><b>High 81°F</b> Tue 3 PM · <b>Low 56°F</b> Wed 5 AM<br>Max sustained wind 15 mph W (Tue 1 PM)<br>Max gust 30 mph (Tuesday)</div></div></div>
+</div><div class="foot"><span>WEATHER INTEL · ATTICA, MI · SOURCE NWS / SPC</span><span>01 / 07</span></div></div><div class="pg" id="p-ops" data-tab="ops"><div class="top sm"><svg class="rings" width="200" height="200" viewBox="0 0 220 220"><g fill="none" stroke="#fff"><circle cx="110" cy="110" r="100"/><circle cx="110" cy="110" r="70"/><circle cx="110" cy="110" r="40"/><path d="M110 0v220M0 110h220" stroke-dasharray="2 6"/></g></svg><div class="eb"><span>WEATHER INTEL · SPEC OPS</span><span class="live"><i></i>FETCHED OCT 12, 2026 · 5:30 PM EDT</span></div><h1>Scheduled <span>Ops</span></h1><div class="who">Outlook calendar events matched to Attica · forecast for each event window</div></div><div class="main"><div class="panel"><div class="ph"><h2>SCHEDULED OPS <span>· NEXT 14 DAYS</span></h2></div><div class="r"><div class="t" style="color:#64748b">NONE</div><div class="w"><b>No upcoming calendar events match this location</b><span>Matched on: peppermill, attica (title / location / address)</span></div><span class="chip nu">14 DAYS</span></div></div><div class="nt">Flags: precip ≥40%, thunderstorms, sustained wind ≥20 mph, gusts ≥30 mph, temp ≤35°F or ≥88°F, any active NWS alert. Only title, time and location are shown.</div></div><div class="foot"><span>WEATHER INTEL · ATTICA, MI · SOURCE NWS / SPC</span><span>02 / 07</span></div></div><div class="pg" id="p-current" data-tab="current"><div class="top sm"><svg class="rings" width="200" height="200" viewBox="0 0 220 220"><g fill="none" stroke="#fff"><circle cx="110" cy="110" r="100"/><circle cx="110" cy="110" r="70"/><circle cx="110" cy="110" r="40"/><path d="M110 0v220M0 110h220" stroke-dasharray="2 6"/></g></svg><div class="eb"><span>WEATHER INTEL · SPEC OPS</span><span class="live"><i></i>FETCHED OCT 12, 2026 · 5:30 PM EDT</span></div><h1>Current <span>Conditions</span></h1><div class="who"><b>KD95</b> · Lapeer Dupont-lapeer · observed 4:55 PM ET</div></div><div class="main"><div class="kpis"><div class="k"><div class="h">TEMP</div><div class="v">84<small>°F</small></div><div class="d">Dewpoint <b>59°F</b> · RH <b>43%</b></div></div>
+<div class="k"><div class="h">WIND</div><div class="v">14<small>mph</small></div><div class="d">From <b>SW</b> (230°) · gust none reported</div></div>
+<div class="k"><div class="h">VISIBILITY</div><div class="v">10<small>mi</small></div><div class="d"><b>Clear</b> · pressure 29.79 inHg</div></div></div>
+<div class="panel"><div class="ph"><h2>DTX KEY MESSAGES <span>· AFD 410 PM EDT Mon Oct 12 2026</span></h2></div><div class="r"><div class="t"><span class="bar"></span>KEY</div><div class="w"><b>Scatted showers with a few isolated thunderstorms overnight.</b></div><span class="chip nu">NWS DTX</span></div><div class="r"><div class="t"><span class="bar"></span>KEY</div><div class="w"><b>Unseasonably warm Tuesday with highs above 80F.</b></div><span class="chip nu">NWS DTX</span></div><div class="r"><div class="t"><span class="bar"></span>KEY</div><div class="w"><b>Showers possible Tuesday night into Wednesday.</b></div><span class="chip nu">NWS DTX</span></div><div class="r"><div class="t"><span class="bar"></span>KEY</div><div class="w"><b>Turning more seasonable Thursday and Friday, then becoming chillier over the weekend.</b></div><span class="chip nu">NWS DTX</span></div></div>
+<div class="panel"><div class="ph"><h2>CLIMATE NOTE</h2><span class="chip tv">NOTE</span></div><div class="nt">Very warm today with a record high already broken at FNT, based on a 20Z obs of 85F, but even warmer readings exist further northwest as IKW, MBS, and HYX log readings of 88F, 86F, and 86F, respectively.</div></div>
+<div class="ev"><div class="cap"><h3><code>RADAR</code>KDTX LATEST SWEEP</h3><span class="chip nu">NWS RIDGE</span></div><img src="data/radar.gif" style="max-height:420px;object-fit:contain"></div></div><div class="foot"><span>WEATHER INTEL · ATTICA, MI · SOURCE NWS / SPC</span><span>03 / 07</span></div></div><div class="pg" id="p-hourly" data-tab="hourly"><div class="top sm"><svg class="rings" width="200" height="200" viewBox="0 0 220 220"><g fill="none" stroke="#fff"><circle cx="110" cy="110" r="100"/><circle cx="110" cy="110" r="70"/><circle cx="110" cy="110" r="40"/><path d="M110 0v220M0 110h220" stroke-dasharray="2 6"/></g></svg><div class="eb"><span>WEATHER INTEL · SPEC OPS</span><span class="live"><i></i>FETCHED OCT 12, 2026 · 5:30 PM EDT</span></div><h1>Hourly <span>Outlook</span></h1><div class="who">Next 24 hours · NWS gridpoint hourly forecast</div></div><div class="main"><div class="panel"><div class="ph"><h2>NEXT 24 HOURS</h2></div><table class="t"><tr><th>TIME ET</th><th>TEMP</th><th>SKY</th><th>WIND</th><th style="text-align:right">PRECIP</th><th style="text-align:right">RH</th></tr><tr><td class="n">Mon 5 PM</td><td class="n">79°</td><td>Mostly Sunny</td><td>10 mph SW</td><td class="n rt" style="color:#64748b">0%</td><td class="rt">57%</td></tr><tr><td class="n">Mon 6 PM</td><td class="n">78°</td><td>Mostly Clear</td><td>9 mph SW</td><td class="n rt" style="color:#64748b">0%</td><td class="rt">61%</td></tr><tr><td class="n">Mon 7 PM</td><td class="n">74°</td><td>Mostly Clear</td><td>8 mph SSW</td><td class="n rt" style="color:#64748b">0%</td><td class="rt">69%</td></tr><tr><td class="n">Mon 8 PM</td><td class="n">70°</td><td>Mostly Clear</td><td>7 mph SSW</td><td class="n rt" style="color:#64748b">4%</td><td class="rt">79%</td></tr><tr><td class="n">Mon 9 PM</td><td class="n">69°</td><td>Mostly Clear</td><td>7 mph SSW</td><td class="n rt" style="color:#64748b">4%</td><td class="rt">82%</td></tr><tr><td class="n">Mon 10 PM</td><td class="n">68°</td><td>Mostly Clear</td><td>7 mph SW</td><td class="n rt" style="color:#64748b">4%</td><td class="rt">84%</td></tr><tr><td class="n">Mon 11 PM</td><td class="n">68°</td><td>Mostly Cloudy</td><td>6 mph SW</td><td class="n rt" style="color:#64748b">11%</td><td class="rt">83%</td></tr><tr><td class="n">Tue 12 AM</td><td class="n">68°</td><td>Chance Light Rain</td><td>7 mph SW</td><td class="n rt" style="color:#b45309">29%</td><td class="rt">84%</td></tr><tr><td class="n">Tue 1 AM</td><td class="n">67°</td><td>Chance Light Rain</td><td>6 mph SW</td><td class="n rt" style="color:#be123c">41%</td><td class="rt">87%</td></tr><tr><td class="n">Tue 2 AM</td><td class="n">67°</td><td>Chance T-storms</td><td>6 mph SW</td><td class="n rt" style="color:#be123c">48%</td><td class="rt">86%</td></tr><tr><td class="n">Tue 3 AM</td><td class="n">66°</td><td>Chance T-storms</td><td>6 mph SW</td><td class="n rt" style="color:#b45309">30%</td><td class="rt">87%</td></tr><tr><td class="n">Tue 4 AM</td><td class="n">66°</td><td>Slight Chance T-storms</td><td>7 mph SSW</td><td class="n rt" style="color:#b45309">24%</td><td class="rt">89%</td></tr><tr><td class="n">Tue 5 AM</td><td class="n">66°</td><td>Partly Cloudy</td><td>7 mph SSW</td><td class="n rt" style="color:#64748b">14%</td><td class="rt">87%</td></tr><tr><td class="n">Tue 6 AM</td><td class="n">66°</td><td>Mostly Sunny</td><td>8 mph SW</td><td class="n rt" style="color:#64748b">14%</td><td class="rt">88%</td></tr><tr><td class="n">Tue 7 AM</td><td class="n">66°</td><td>Mostly Sunny</td><td>9 mph SW</td><td class="n rt" style="color:#64748b">8%</td><td class="rt">87%</td></tr><tr><td class="n">Tue 8 AM</td><td class="n">66°</td><td>Sunny</td><td>10 mph SW</td><td class="n rt" style="color:#64748b">5%</td><td class="rt">86%</td></tr><tr><td class="n">Tue 9 AM</td><td class="n">68°</td><td>Sunny</td><td>12 mph SW</td><td class="n rt" style="color:#64748b">3%</td><td class="rt">83%</td></tr><tr><td class="n">Tue 10 AM</td><td class="n">72°</td><td>Sunny</td><td>12 mph WSW</td><td class="n rt" style="color:#64748b">2%</td><td class="rt">76%</td></tr><tr><td class="n">Tue 11 AM</td><td class="n">75°</td><td>Sunny</td><td>13 mph WSW</td><td class="n rt" style="color:#64748b">2%</td><td class="rt">70%</td></tr><tr><td class="n">Tue 12 PM</td><td class="n">78°</td><td>Sunny</td><td>14 mph WSW</td><td class="n rt" style="color:#64748b">1%</td><td class="rt">66%</td></tr></table></div>
+<div class="panel"><div class="ph"><h2>PRECIP CHANCE <span>· 48H, 4-HOURLY · ORANGE = T-STORM</span></h2></div><div class="hb"><div class="row"><span>Mon 7 PM</span><div class="tr"><i style="width:1%;background:#0f1b2d"></i></div><span class="nm">0%</span></div><div class="row"><span>Mon 11 PM</span><div class="tr"><i style="width:11%;background:#0f1b2d"></i></div><span class="nm">11%</span></div><div class="row"><span>Tue 3 AM</span><div class="tr"><i style="width:30%;background:#f97316"></i></div><span class="nm">30%</span></div><div class="row"><span>Tue 7 AM</span><div class="tr"><i style="width:8%;background:#0f1b2d"></i></div><span class="nm">8%</span></div><div class="row"><span>Tue 11 AM</span><div class="tr"><i style="width:2%;background:#0f1b2d"></i></div><span class="nm">2%</span></div><div class="row"><span>Tue 3 PM</span><div class="tr"><i style="width:6%;background:#0f1b2d"></i></div><span class="nm">6%</span></div><div class="row"><span>Tue 7 PM</span><div class="tr"><i style="width:6%;background:#0f1b2d"></i></div><span class="nm">6%</span></div><div class="row"><span>Tue 11 PM</span><div class="tr"><i style="width:1%;background:#0f1b2d"></i></div><span class="nm">0%</span></div><div class="row"><span>Wed 3 AM</span><div class="tr"><i style="width:38%;background:#0f1b2d"></i></div><span class="nm">38%</span></div><div class="row"><span>Wed 7 AM</span><div class="tr"><i style="width:12%;background:#0f1b2d"></i></div><span class="nm">12%</span></div><div class="row"><span>Wed 11 AM</span><div class="tr"><i style="width:10%;background:#0f1b2d"></i></div><span class="nm">10%</span></div><div class="row"><span>Wed 3 PM</span><div class="tr"><i style="width:3%;background:#0f1b2d"></i></div><span class="nm">3%</span></div></div></div></div><div class="foot"><span>WEATHER INTEL · ATTICA, MI · SOURCE NWS / SPC</span><span>04 / 07</span></div></div><div class="pg" id="p-week" data-tab="week"><div class="top sm"><svg class="rings" width="200" height="200" viewBox="0 0 220 220"><g fill="none" stroke="#fff"><circle cx="110" cy="110" r="100"/><circle cx="110" cy="110" r="70"/><circle cx="110" cy="110" r="40"/><path d="M110 0v220M0 110h220" stroke-dasharray="2 6"/></g></svg><div class="eb"><span>WEATHER INTEL · SPEC OPS</span><span class="live"><i></i>FETCHED OCT 12, 2026 · 5:30 PM EDT</span></div><h1>7-Day <span>Forecast</span></h1><div class="who">NWS DTX · Attica, MI</div></div><div class="main"><div class="panel"><table class="t"><tr><th>PERIOD</th><th>TEMP</th><th>DETAIL</th></tr><tr><td class="n">Columbus Day</td><td class="n">83°F</td><td>Mostly sunny. High near 83, with temperatures falling to around 79 in the afternoon. Southwest wind around 10 mph, with gusts as high as 21 mph.</td></tr><tr><td class="n">Tonight</td><td class="n">65°F</td><td>A chance of rain and a slight chance of thunderstorms between midnight and 2am, then a chance of thunderstorms and a chance of rain between 2am and 5am. Partly cloudy, with a low around 65. Southwest wind 6 to 9 mph, with gusts as high as 20 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible.</td></tr><tr><td class="n">Tuesday</td><td class="n">81°F</td><td>Sunny. High near 81, with temperatures falling to around 78 in the afternoon. West southwest wind 8 to 15 mph, with gusts as high as 30 mph. New rainfall amounts less than a tenth of an inch possible.</td></tr><tr><td class="n">Tuesday Night</td><td class="n">55°F</td><td>A chance of rain between 3am and 5am. Partly cloudy, with a low around 55. Northwest wind 1 to 14 mph, with gusts as high as 28 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.</td></tr><tr><td class="n">Wednesday</td><td class="n">66°F</td><td>Mostly cloudy, with a high near 66. North northwest wind 1 to 7 mph. New rainfall amounts less than a tenth of an inch possible.</td></tr><tr><td class="n">Wednesday Night</td><td class="n">44°F</td><td>Mostly cloudy, with a low around 44.</td></tr><tr><td class="n">Thursday</td><td class="n">63°F</td><td>A chance of rain after 2pm. Mostly cloudy, with a high near 63.</td></tr><tr><td class="n">Thursday Night</td><td class="n">46°F</td><td>Rain. Cloudy, with a low around 46.</td></tr><tr><td class="n">Friday</td><td class="n">60°F</td><td>A chance of rain. Mostly cloudy, with a high near 60.</td></tr><tr><td class="n">Friday Night</td><td class="n">33°F</td><td>A slight chance of rain before 8pm. Mostly cloudy, with a low around 33.</td></tr><tr><td class="n">Saturday</td><td class="n">53°F</td><td>Sunny, with a high near 53.</td></tr><tr><td class="n">Saturday Night</td><td class="n">33°F</td><td>Mostly clear, with a low around 33.</td></tr><tr><td class="n">Sunday</td><td class="n">61°F</td><td>Sunny, with a high near 61.</td></tr><tr><td class="n">Sunday Night</td><td class="n">41°F</td><td>Partly cloudy, with a low around 41.</td></tr></table></div></div><div class="foot"><span>WEATHER INTEL · ATTICA, MI · SOURCE NWS / SPC</span><span>05 / 07</span></div></div><div class="pg" id="p-radar" data-tab="radar"><div class="top sm"><svg class="rings" width="200" height="200" viewBox="0 0 220 220"><g fill="none" stroke="#fff"><circle cx="110" cy="110" r="100"/><circle cx="110" cy="110" r="70"/><circle cx="110" cy="110" r="40"/><path d="M110 0v220M0 110h220" stroke-dasharray="2 6"/></g></svg><div class="eb"><span>WEATHER INTEL · SPEC OPS</span><span class="live"><i></i>FETCHED OCT 12, 2026 · 5:30 PM EDT</span></div><h1>Radar <span>&amp; SPC</span></h1><div class="who">KDTX reflectivity · SPC convective outlooks</div></div><div class="main"><div class="ev"><div class="cap"><h3><code>RADAR</code>KDTX <span class="screen">LOOP</span><span class="print">LATEST</span></h3><span class="chip nu">FETCHED 5:30 PM ET</span></div><img class="screen" src="data/radar_loop.gif"><img class="print" src="data/radar.gif" style="max-height:360px;object-fit:contain"></div>
+<div class="two"><div class="ev"><div class="cap"><h3><code>SPC</code>DAY 1</h3></div><img src="data/spc_day1.png"></div><div class="ev"><div class="cap"><h3><code>SPC</code>DAY 2</h3></div><img src="data/spc_day2.png"></div></div></div><div class="foot"><span>WEATHER INTEL · ATTICA, MI · SOURCE NWS / SPC</span><span>06 / 07</span></div></div><div class="pg" id="p-afd" data-tab="afd"><div class="top sm"><svg class="rings" width="200" height="200" viewBox="0 0 220 220"><g fill="none" stroke="#fff"><circle cx="110" cy="110" r="100"/><circle cx="110" cy="110" r="70"/><circle cx="110" cy="110" r="40"/><path d="M110 0v220M0 110h220" stroke-dasharray="2 6"/></g></svg><div class="eb"><span>WEATHER INTEL · SPEC OPS</span><span class="live"><i></i>FETCHED OCT 12, 2026 · 5:30 PM EDT</span></div><h1>Forecast <span>Discussion</span></h1><div class="who">NWS Detroit/Pontiac · 410 PM EDT Mon Oct 12 2026</div></div><div class="main"><div class="panel"><pre class="afd">
+
+- Scatted showers with a few isolated thunderstorms overnight.
+
+- Unseasonably warm Tuesday with highs above 80F.
+
+- Showers possible Tuesday night into Wednesday.
+
+- Turning more seasonable Thursday and Friday, then becoming chillier 
+  over the weekend.
+
+&amp;&amp;
+
+.DISCUSSION...
+
+Very warm today with a record high already broken at FNT, based on a 
+20Z obs of 85F, but even warmer readings exist further northwest as 
+IKW, MBS, and HYX log readings of 88F, 86F, and 86F, respectively.
+
+An active period of weather gets underway this week as the upper 
+level jet approaches the Great Lakes and then fixates through the 
+workweek. At the surface, a chain of surface low pressures is 
+anchored to a stationary front extending from the High Plains to the 
+Upper Midwest. A shortwave trough will eject from a deep upper low 
+stuck over Nevada tonight to establish a primary surface wave that 
+will reach Lower Michigan on Tuesday. Meanwhile, a 594 dam 500 mb 
+ridge of high pressure situated over the Gulf Coast supports 
+continued anticyclonic warm/moist advection into the region. 
+Moisture metrics are already on the rise this afternoon with most 
+ASOS/AWOS sites reporting 60+ dewpoints. This ensures a mild night 
+with overnight lows in the mid (perhaps upper) 60s, or about 20F 
+above climatological normals. Before the low makes any progress into 
+northern Lower, isentropic upsloping produces an uptick in mid 
+column saturation (700-500 mb) while drier air resides within an 
+elevated warm layer (925-800 mb). Scattered overnight showers will 
+partially fill in overnight, and remain elevated. Forecast soundings 
+show some elevated instability, maximizing at around 200 J/kg, so 
+some rumbles of thunder cannot be ruled out. No severe weather 
+concerns given the lack of CAPE density for severe hail and near-
+surface stability to dampen the wind gust response.
+
+CAMs show conditions drying out pretty quickly Tuesday morning given 
+how quickly low and mid level moisture is stripped out, after flow 
+veers WNW. The main forecast consideration will be temperature 
+trends for the rest of the day with 925 mb temperatures starting out 
+in the low 20s (Celsius). Skies should also clear out for the peak 
+diurnal heating cycle, adding to the insolation potential. Models 
+differ in timing the arrival of the primary cold front, but the more 
+delayed the boundary is, the higher the possible max temperature 
+will be. The latest NBM 5th percentile has 80s across most of Metro 
+Detroit, so NWP confidence is high for another day with highs of 
+80F. The record high for DTW on October 13 is within reach at 83F in 
+1975. Seasonably mild Tuesday night behind the front, although still 
+a 20+ degree nocturnal drop, even with thickening cloud cover.
+
+The cold front looks to stall out near the Michigan/Ohio border 
+Tuesday night and Wednesday as the jet axis approaches aloft. 
+Numerous shortwave interactions promote a perturbed geopotential 
+height field offering additional chances for precipitation. This 
+will be augmented by the Gulf ridge which will still be in place, 
+renewing theta-e advection. Limited CAPE, but non-zero leaves a 
+chance for a rumble of thunder. Any shower activity that continues 
+into the daylight hours will be brief as shortwave ridging builds in 
+from the west, and flow flips NNE, dislodging the boundary. This 
+also allows a more seasonable airmass to filter in from Ontario. 
+Cold advection persists into Thursday, before the next wave of low 
+pressure lifts into southern Lower Thursday evening or during the 
+overnight hours. This brings another round of rain and a cold front. 
+Cooler and drier conditions develop Friday, lasting through the 
+weekend.
+
+&amp;&amp;
+
+.MARINE...
+
+Low pressure will travel from the Plains into northern lower 
+Michigan tonight through tomorrow morning. This will quickly 
+strengthen the pressure gradient ahead of the arrival of this 
+system, increasing the magnitude of southwest flow across southern 
+Lake Huron, Lake St. Clair, and Lake Erie. More tempered northerly 
+flow will be found across northern Lake Huron through the morning. 
+As low pressure progresses east into New England, wind direction 
+will back more westerly through the afternoon, which will bring a 
+window for some breezy conditions across the southern Great Lakes. 
+Wind gusts around 20 to 25 knots will be possible, with wind speeds 
+quickly diminishing through the evening as the pressure gradient 
+weakens. Rain showers with some isolated thunderstorms will be 
+likely through tomorrow. 
+
+A cold front will then push through the Great Lakes Wednesday, 
+stalling across southern Michigan by the afternoon. The favorable 
+northwest fetch will produce wind gusts 20 to 30 knots across 
+northern Lake Huron. High pressure to then build in through Thursday 
+which will bring a period of light winds for the day. Confidence is 
+increasing for a strong cold front to pass Friday into Saturday. 
+Instability will increase over the lakes in the wake of the front 
+given the advent of cold air over the warmer lake waters. Coupled 
+with longer duration northwest flow, a longer duration gale event is 
+looking increasingly likely to end the week.
+
+&amp;&amp;
+
+.CLIMATE...
+
+Record high max temperatures for October 13th:
+
+Detroit: 83 Degrees (Set in 1975)
+Flint:   83 Degrees (Set in 1975) 
+Saginaw: 86 Degrees (Set in 1930)
+
+&amp;&amp;
+
+</pre></div></div><div class="foot"><span>WEATHER INTEL · ATTICA, MI · SOURCE NWS / SPC</span><span>07 / 07</span></div></div></div></div><script>const bs=[...document.querySelectorAll('.nav button')],ps=[...document.querySelectorAll('.pg')];
+function show(t){ps.forEach(p=>p.style.display=p.dataset.tab===t?'block':'none');bs.forEach(b=>b.classList.toggle('on',b.dataset.t===t));history.replaceState(null,'','#'+t)}
+bs.forEach(b=>b.onclick=()=>show(b.dataset.t));show((location.hash||'#brief').slice(1));</script></body></html>
